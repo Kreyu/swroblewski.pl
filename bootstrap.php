@@ -1,10 +1,9 @@
 <?php
 
-use Illuminate\Container\Container;
-use TightenCo\Jigsaw\Events\EventBus;
+use TightenCo\Jigsaw\Jigsaw;
 
-/** @var $container Container */
-/** @var $events EventBus */
+/** @var $container \Illuminate\Container\Container */
+/** @var $events \TightenCo\Jigsaw\Events\EventBus */
 
 /**
  * You can run custom code at different stages of the build process by
@@ -18,4 +17,3 @@ use TightenCo\Jigsaw\Events\EventBus;
  */
 
 $events->afterBuild(App\Listeners\GenerateSitemap::class);
-$events->afterBuild(App\Listeners\NotifyTelegram::class);
