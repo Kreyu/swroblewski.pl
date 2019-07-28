@@ -13,6 +13,36 @@ The website is built using the following tools:
  - [Netlify](https://www.netlify.com/) - as the continuous deployment hosting
  - [OVH](https://www.ovh.pl/) - as the domain provider
 
+## Development
+
+To start the local development, first clone the repository
+
+```shell script
+$ git clone https://github.com/Kreyu/swroblewski.pl
+$ cd swroblewski.pl
+```
+
+then, install the dependencies
+
+```shell script
+$ composer install
+$ npm install
+```
+
+finally, run the development script
+
+```shell script
+$ npm run watch
+```
+
+and to build the application, run the following script
+
+```shell script
+$ npm run production
+```
+
+Production build process is automated by the [Netlify](https://www.netlify.com/) integration. 
+
 ## Todo
 
 - [ ] Blog
