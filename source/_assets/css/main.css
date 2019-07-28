@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "icons";
+@import "rawline";
+
+body {
+  @apply bg-black text-white;
+}
+
+.main {
+  @apply flex flex-col items-center justify-center h-screen;
+}
+
+::selection {
+  @apply bg-gray-500;
+}
+
+#particles-js {
+  @apply bg-black absolute;
+  z-index: -1;
+}
+
+#slogan {
+  height: 24px;
+}
