@@ -13,3 +13,7 @@ yarn-error.log
 # /source/assets/css/
 # /source/assets/fonts/
 # /source/assets/js/
+
+# Temporary ignores
+package-lock.json
+composer.lock
