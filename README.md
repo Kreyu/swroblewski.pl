@@ -12,3 +12,8 @@ The website is built using the following tools:
  - [particles.js](https://vincentgarreau.com/particles.js/) - as the particle effect in the background
  - [Netlify](https://www.netlify.com/) - as the continuous deployment hosting
  - [OVH](https://www.ovh.pl/) - as the domain provider
+
+## Todo
+
+- [ ] Blog
+- [ ] Code snippets
