@@ -16,6 +16,16 @@
         <link rel="stylesheet" href="{{ mix('/css/main.css') }}">
 
         <script src="{{ mix('/js/main.js') }}"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146804022-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-146804022-1');
+        </script>
     </head>
     <body class="antialiased font-sans">
         <div id="particles-js" class="w-screen h-screen"></div>
