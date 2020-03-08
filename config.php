@@ -3,7 +3,18 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'collections' => [],
+    'collections' => [
+        'posts' => [
+            'path' => 'blog/posts/{filename}',
+            'tags' => []
+        ],
+        'tags' => [
+            'path' => 'blog/tags/{filename}',
+        ],
+        'products' => [
+            'path' => 'products/{filename}',
+        ],
+    ],
     'slogans' => [
         'homepage' => [
             "I mean, it's a feature, right?",

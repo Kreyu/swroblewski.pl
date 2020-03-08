@@ -147,7 +147,6 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        'rawline',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -275,6 +274,9 @@ module.exports = {
       ...theme('spacing'),
       full: '100%',
       screen: '100vh',
+      '1/10': '10%',
+      '8/10': '80%',
+      '9/10': '90%',
     }),
     minWidth: {
       '0': '0',

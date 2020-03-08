@@ -41,9 +41,4 @@ and to build the application, run the following script
 $ npm run production
 ```
 
-Production build process is automated by the [Netlify](https://www.netlify.com/) integration. 
-
-## Todo
-
-- [ ] Blog
-- [ ] Code snippets
+Production build process is automated by the [Netlify](https://www.netlify.com/) integration.
