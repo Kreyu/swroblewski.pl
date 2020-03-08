@@ -13,5 +13,5 @@ composer.lock
 /build_staging/
 /build_production/
 /source/assets/css/
-/source/assets/js/
+/source/assets/js/*
 !/source/assets/js/particles.js
