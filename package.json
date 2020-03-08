@@ -22,5 +22,8 @@
     "tailwindcss": "^1.0.0",
     "vue-template-compiler": "^2.6.10",
     "yargs": "^13.2.4"
+  },
+  "dependencies": {
+    "highlight.js": "^9.18.1"
   }
 }

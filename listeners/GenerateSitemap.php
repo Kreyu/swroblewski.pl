@@ -24,16 +24,11 @@ class GenerateSitemap
 
         collect($jigsaw->getOutputPaths())
             ->reject(function ($path) {
-                return $this->isExcluded($path);
+                return Str::is($this->exclude, $path);
             })->each(function ($path) use ($baseUrl, $sitemap) {
                 $sitemap->addItem(rtrim($baseUrl, '/') . $path, time(), Sitemap::DAILY);
         });
 
         $sitemap->write();
-    }
-
-    public function isExcluded($path)
-    {
-        return Str::is($this->exclude, $path);
     }
 }

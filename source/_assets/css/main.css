@@ -5,16 +5,8 @@
 @import "icons";
 @import "rawline";
 
-body {
-  @apply bg-black text-white;
-}
-
-.main {
-  @apply flex flex-col items-center justify-center h-screen;
-}
-
 ::selection {
-  @apply bg-gray-500;
+  @apply bg-orange-500 text-black;
 }
 
 #particles-js {
@@ -24,4 +16,16 @@ body {
 
 #slogan {
   height: 24px;
+}
+
+pre, code, kbd, samp {
+  @apply font-mono text-sm;
+}
+
+.hljs-keyword, .hljs-selector-tag, .hljs-section, .hljs-attribute, .hljs-name, .hljs-variable {
+  @apply text-orange-500;
+}
+
+.h-1\/10 {
+  height: 10vh;
 }

@@ -6,14 +6,12 @@
 /.vscode/
 npm-debug.log
 yarn-error.log
+package-lock.json
+composer.lock
 
 # Optional ignores
 /build_staging/
 /build_production/
-# /source/assets/css/
-# /source/assets/fonts/
-# /source/assets/js/
-
-# Temporary ignores
-package-lock.json
-composer.lock
+/source/assets/css/
+/source/assets/js/
+!/source/assets/js/particles.js
