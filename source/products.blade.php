@@ -1,12 +1,12 @@
 @extends('_layouts.product')
 
-@section('body')
+@section('content.outer')
     <section class="font-sans text-center px-6">
         <h1 class="mt-8 text-3xl font-medium">Products</h1>
         <h2 class="mb-4 text-xl font-medium">Every product is open-source, licensed under terms of the MIT license.</h2>
     </section>
 
-    <section class="text-center mt-4">
+    <section class="text-center">
         <ul>
             @forelse ($products as $product)
                 <li>
