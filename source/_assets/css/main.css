@@ -1,9 +1,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-
 @import "icons";
-@import "rawline";
 
 ::selection {
   @apply bg-orange-500 text-black;

@@ -24,7 +24,6 @@
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'UA-146804022-1');
         </script>
     </head>
@@ -47,9 +46,9 @@
                     <li class="px-3 hover:text-orange-500 transition-faster">
                         <a href="/products" class="no-underline">Products</a>
                     </li>
-                    <li class="px-3 hover:text-orange-500 transition-faster">
+                    {{--<li class="px-3 hover:text-orange-500 transition-faster">
                         <a href="/blog" class="no-underline">Blog</a>
-                    </li>
+                    </li>--}}
                 </ul>
 
                 <ul class="flex list-none items-center p-0 pt-1">
@@ -73,6 +72,10 @@
                                 <i class="icon-telegram-plane"></i>
                             </span>
                         </a>
+                    </li>
+                    <li class="mx-3 hidden sm:block hover:text-orange-500 transition-faster">
+                        <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
+                        <script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#2e2e2e', 'J3J42HTWT');kofiwidget2.draw();</script>
                     </li>
                 </ul>
             </div>

@@ -10,5 +10,5 @@
 @endphp
 
 <div class="my-8">
-    <pre class="text-left"><code class="{{ $lang }} bg-transparent p-0">{{{ $slot }}}</code></pre>
+    <pre><code class="{{ $lang }} {{ $class ?: '' }} bg-transparent p-0">{{{ $slot }}}</code></pre>
 </div>
